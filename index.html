@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso de Informática - Marina</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f4f6f9;
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(135deg, #2563eb, #1e40af);
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+
+        header p {
+            font-size: 18px;
+            margin-top: 10px;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 25px;
+            background-color: #22c55e;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 50px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #1e40af;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+        }
+
+        .card h3 {
+            margin-top: 0;
+            color: #2563eb;
+        }
+
+        .price {
+            background: #1e40af;
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        .price h2 {
+            color: white;
+        }
+
+        footer {
+            background-color: #111827;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .whatsapp {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #25d366;
+            color: white;
+            padding: 15px 20px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Curso Básico de Informática</h1>
+    <p>Para Concursos e Empregos - Jacinto MG</p>
+    <a href="#contato" class="btn">Quero me Inscrever</a>
+</header>
+
+<section>
+    <h2>O que você vai aprender</h2>
+    <div class="grid">
+        <div class="card">
+            <h3>Informática Básica</h3>
+            <p>Windows, pastas, arquivos, teclado e uso do computador.</p>
+        </div>
+        <div class="card">
+            <h3>Internet e E-mail</h3>
+            <p>Como navegar com segurança e enviar currículos online.</p>
+        </div>
+        <div class="card">
+            <h3>Word</h3>
+            <p>Criação de textos e currículo profissional.</p>
+        </div>
+        <div class="card">
+            <h3>Excel Básico</h3>
+            <p>Planilhas simples para trabalho e concursos.</p>
+        </div>
+    </div>
+</section>
+
+<section class="price">
+    <h2>Investimento</h2>
+    <p style="font-size:28px; font-weight:bold;">R$ 150,00</p>
+    <p>Curso com certificado incluso</p>
+</section>
+
+<section id="contato">
+    <h2>Contato</h2>
+    <p style="text-align:center; font-size:18px;">
+        Professora Marina<br>
+        Estudante de Técnico em Informática<br>
+        Jacinto - MG
+    </p>
+</section>
+
+<footer>
+    <p>© 2026 Curso de Informática - Marina | Todos os direitos reservados</p>
+</footer>
+
+<a class="whatsapp" href="https://wa.me/5500000000000" target="_blank">WhatsApp</a>
+
+</body>
+</html>
